@@ -7,10 +7,13 @@ from .models.orders import Order
 
 class AdminProduct(admin.ModelAdmin):
     list_display = ['name', 'price', 'category']
+    #readonly_fields = ['name', 'category']
+    #raw_id_fields = ['user']
 
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ['name']
+    #readonly_fields = ['category']
 
 # Register your models here.
 admin.site.register(Products,AdminProduct)

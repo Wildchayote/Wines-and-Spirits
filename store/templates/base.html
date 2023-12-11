@@ -5,26 +5,37 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="icon" href="http://localhost:8000/image/download/uploads/products/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/image/download/uploads/products/logo-chatgpt-png-42635.png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <title>E-commerce Website</title>
+  <title>wines & spirits</title>
 
   <style>
-    nav{
-      background-color: green;
+    .text-center {
+      text-align: center;
     }
+    nav {
+        background-color: rgb(36, 197, 36);
+    }
+
     .one-edge-shadow {
-              box-shadow: 0 8px 2px -5px rgb(246, 245, 245);
-}
-.display-8{
-  font-weight: 200;
-  font-size: 30px;
-  font-colour: $teal-200;
-}
-  </style>
+        box-shadow: 0 8px 2px -5px rgb(246, 245, 245);
+    }
+
+    .display-8 {
+        font-weight: 300;
+        font-size: 40px;
+        color:rgb(36, 197, 36) ; /* Replace with the actual color value or variable */
+    }
+    header {
+    text-align: center;
+    padding: 20px;
+    }
+</style>
+
 </head>
 
 <body>
@@ -35,10 +46,10 @@
   sticky-top navbar 
   navbar-expand-lg
   text-white">
-    <a class="navbar-brand ms-3 text-dark " href="/">
+    <a class="navbar-brand ms-3 text-dark" href="/" style="color: #000;">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-    <img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" style="width:50px;height:50px,color:text-light;">E-Commerce</a>
+    <img src="http://localhost:8000/image/download/uploads/products/logo-chatgpt-png-42635.png" style="width: 50px; height: 50px;"> Wines and Spirits
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -88,6 +99,24 @@
 
     </div>
   </nav>
+  
+  <header>
+  <div class ="content">
+    <div class ="panel-wrapper" style="padding-bottom:20px;background-color: rgb(36, 197, 36) ;">
+        <h1 class="panel-copy"> Angry Bird. & Bash Own Selection Wines&nbsp; </h1>
+        <p class ="panel-copy">
+            "Our Own Selection wines, handpicked by our experts, are produced in collaboration with some of the world’s leading wineries. The range contains classic examples at 
+            excellent prices from over 50 fine wine regions, offering a wine for every occasion."
+        </p>
+    </div>
+    <div class="panel-button-wrapper js-gdl-promo" data-name="inside=bordeaux" data-creative="basic-matching" data-position="1">
+    <p class="panel-copy">
+        <a href="https://www.bbr.com/our-own-selection" class="btn-primary-action position-center">Browse all wines</a>
+    </p>
+    </div>
+  </div>  
+    <img src="http://localhost:8000/image/download/uploads/products/header.PNG" alt="Header Image">
+  </header>
   <!---->
   {% block content %}{% endblock %}
 
