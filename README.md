@@ -1,3 +1,5 @@
+[![Django](https://github.com/Wildchayote/Wines-and-Spirits/blob/main/header.PNG)](https://github.com/Wildchayote/Wines-and-Spirits)
+
 # Wines & Spirits
 ## Description
 💛Wines & Spirits is a website where customers can place orders for their wines, champagne, spirits, and other drinks and make payments.
