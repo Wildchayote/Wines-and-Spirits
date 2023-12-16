@@ -9,9 +9,8 @@
   
 💛You can also check [Voice order picker app](https://github.com/Wildchayote/Python_aop/blob/Improve/Voice_Order_picker_App.py) as part of a system designed to complement Wines & Spirits by making the picking, sorting and delivery process seamless, efficient and error free.
 ## Setting up your enviroment
-1. Clone this repository into a folder on your computer
-2. Download Python
-3. Open terminal inside the folder with code.
-4. Type pip install -r requirements.txt in the terminal window to install all the requirements to run the app.
-5. Type python manage.py runserver to start a localhost server for the app.
-6. The API is started and now you can use the API routes to give requests.
+1. Clone this repository-  git clone <repo url>
+2. Download and install Python.
+3. Open a new terminal inside your project directory.
+4. Install requirements: pip install -r requirements.txt in the terminal window
+5. Runserver: python manage.py runserver to get your Django server running.
